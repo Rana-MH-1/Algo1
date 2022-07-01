@@ -1,0 +1,14 @@
+ALGORITHM algorithm_name
+VAR
+    i,s:INTEGER
+    tab : ARRAY_OF FLOAT [5];
+BEGIN
+s:=0
+    FOR i FROM 1 TO tab.length STEP 1  DO
+        Write("donner un reel")
+        Read(tab[i])
+        s:= s+tab[i]
+    END_FOR
+    Write(s)
+
+END
